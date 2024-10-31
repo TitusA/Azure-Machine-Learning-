@@ -1,1 +1,1 @@
-Get the subscription total AML endpoints to check the quota and limit. It will parse all your subscriptions.
+Get the subscription total AML endpoints to check the quota and limit. It parses all workspaces and get the online endpoints, batch endpoints and serverless endpoints. It shows the count per workspace and the total.
