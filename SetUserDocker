@@ -1,0 +1,9 @@
+Create a Non-Root User
+Ensure that a non-root user is created and available for operations within the environment. This can be done during image or environment initialization.
+Example in a Dockerfile:  RUN chown myuser:myuser /desired-directory
+Switch to Non-Root User
+Adjust the runtime user context for the environment.
+Example in a Dockerfile: USER myuser
+Grant Necessary Permissions
+Modify the permissions for the directories and files that the user needs to access.
+Example: RUN useradd -m myuser
